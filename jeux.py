@@ -3,7 +3,7 @@ import random
 
 nombre_mystere = random.randint(1, 100)
 tentative = 0
-nb_user = 0
+nb_user = 0 #fais par moi et par moi tout seul valez 
 
 while tentative < 10 and nb_user != nombre_mystere:
     nb_user = int(input("Devine le nombre mystère : "))
